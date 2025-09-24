@@ -44,7 +44,38 @@
     .btn:hover{background:rgba(255,255,255,.06)}
     .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:.86rem}
     .kw{margin-top:10px;font-size:.9rem;color:var(--muted)}
-  </style>
+  
+    .doi-box {
+        display: inline-block;
+        padding: 6px 10px;
+        margin: 6px 0;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.25);
+        border-radius: 8px;
+        font-family: ui-monospace, monospace;
+        color: #a6ffe1;
+        text-decoration: none;
+    }
+    .doi-box:hover {
+        background: rgba(255,255,255,0.2);
+    }
+    
+    .kw-chips {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin: 8px 0 2px;
+    }
+    .kw-chip {
+        font-size: .75rem;
+        padding: 3px 8px;
+        border-radius: 999px;
+        border: 1px solid rgba(255,255,255,.22);
+        background: rgba(255,255,255,.08);
+        color: #ffffff;
+        white-space: nowrap;
+    }
+    </style>
 </head>
 <body>
 <div class="wrap">
@@ -52,7 +83,6 @@
 <div class="topbar">
 <div>
 <h1>Selected Articles</h1>
-<p class="sub">Abstracts in English • Ports, Sustainability and SDGs</p>
 </div>
 <nav>
 <a class="btn" href="#marine-policy">Marine Policy</a>
@@ -75,10 +105,10 @@
 <div aria-label="ODS relacionados" class="sdgs">
 <span class="sdg">SDG 7</span><span class="sdg">SDG 8</span><span class="sdg">SDG 9</span><span class="sdg">SDG 11</span><span class="sdg">SDG 12</span><span class="sdg">SDG 13</span><span class="sdg">SDG 14</span><span class="sdg">SDG 17</span>
 </div>
-<p class="kw">Keywords: Sustentabilidade portuária; Objetivos de Desenvolvimento Sustentável (ODS); Indicadores de sustentabilidade; Resiliência portuária; Desenvolvimento portuário sustentável; Política marítima.</p>
+<div class="kw-chips"><span class="kw-chip">Port sustainability</span><span class="kw-chip">Objetivos de Desenvolvimento Sustentável (SDG)</span><span class="kw-chip">Sustainability indicators</span><span class="kw-chip">Port resilience</span><span class="kw-chip">Sustainable port development</span><span class="kw-chip">Maritime policy</span></div>
 <p>Full article: https://doi.org/10.1016/j.marpol.2025.106841</p>
 <details open="">
-<summary>Abstract (English)</summary>
+<summary>Abstract</summary>
 <p>This study develops and applies a sustainability index tailored to the port sector, aligned with eight SDGs. The framework combines 20 thematic dimensions and 84 indicators, offering a quantitative assessment of port sustainability performance. Applied to six major Brazilian ports, it revealed strong results in partnerships (SDG 17) and responsible consumption (SDG 12), but gaps in climate action (SDG 13) and clean energy adoption (SDG 7). The model provides practical guidance for port authorities and policymakers to strengthen governance, resilience, and sustainability strategies.</p>
 </details>
 </article>
@@ -92,10 +122,10 @@
 <div class="sdgs">
 <span class="sdg">SDG 7</span><span class="sdg">SDG 9</span><span class="sdg">SDG 11</span><span class="sdg">SDG 12</span><span class="sdg">SDG 13</span><span class="sdg">SDG 14</span><span class="sdg">SDG 8</span><span class="sdg">SDG 17</span>
 </div>
-<p class="kw">Keywords: Objetivos de Desenvolvimento Sustentável; Sustentabilidade; Sustentabilidade ambiental; Indústria marítima; Portos.</p>
+<div class="kw-chips"><span class="kw-chip">Sustainable Development Goals</span><span class="kw-chip">Sustainability</span><span class="kw-chip">Environmental sustainability</span><span class="kw-chip">Maritime industry</span><span class="kw-chip">Ports</span></div>
 <p>Full article: https://doi.org/10.1016/j.rsma.2023.103319</p>
 <details>
-<summary>Abstract (English)</summary>
+<summary>Abstract</summary>
 <p>This article conducts a comprehensive literature review on SDG-related research in the maritime and port industries. Using IRaMuTeQ and VOSviewer, it identifies key themes such as port–city models, circular economy, blue economy, and energy efficiency. Results show a strong European focus, reflecting the region’s academic prominence and extensive port network. Despite growth in publications, the study highlights a persistent gap in aligning port operations with the ambitions of the 2030 Agenda, indicating opportunities for further exploration in governance and policy.</p>
 </details>
 </article>
@@ -109,10 +139,10 @@
 <div class="sdgs">
 <span class="sdg">SDG 9</span><span class="sdg">SDG 13</span><span class="sdg">SDG 14</span>
 </div>
-<p class="kw">Keywords: Objetivos de Desenvolvimento Sustentável; Inovação; Ação Climática; Vida Marinha; Setor Portuário.</p>
+<div class="kw-chips"><span class="kw-chip">Sustainable Development Goals</span><span class="kw-chip">Innovation</span><span class="kw-chip">Climate action</span><span class="kw-chip">Marine life</span><span class="kw-chip">Port sector</span></div>
 <p>Full article: https://doi.org/10.24857/rgsa.v18n11-096</p>
 <details>
-<summary>Abstract (English)</summary>
+<summary>Abstract</summary>
 <p>This research assesses the implementation of SDG 14 in Brazilian ports through eight in-depth interviews. The findings highlight initiatives such as ISO 14001 certification, water quality monitoring, waste management, and environmental education programmes. Partnerships with academia and regulators and adherence to the UN Global Compact reinforce this progress. However, challenges remain in noise monitoring, biodiversity conservation, and the use of eDNA tools. The study recommends improved environmental reporting standards and the adoption of SMART targets to strengthen alignment with marine conservation goals.</p>
 </details>
 </article>
@@ -126,10 +156,10 @@
 <div class="sdgs">
 <span class="sdg">SDG 14</span>
 </div>
-<p class="kw">Keywords: Objetivos de Desenvolvimento Sustentável; ODS 14; Sustentabilidade; Economia Azul; Portos.</p>
+<div class="kw-chips"><span class="kw-chip">Sustainable Development Goals</span><span class="kw-chip">SDG 14</span><span class="kw-chip">Sustainability</span><span class="kw-chip">Blue economy</span><span class="kw-chip">Ports</span></div>
 <p>Full article: https://doi.org/10.7769/gesec.v15i12.4593</p>
 <details>
-<summary>Abstract (English)</summary>
+<summary>Abstract</summary>
 <p>This study analyses sustainability disclosures in reports from major Brazilian public and private ports. Evidence shows investments in research, innovation, and technology (SDG 9), actions to cut greenhouse gas emissions and promote energy transition (SDG 13), and limited initiatives related to marine protection (SDG 14). The findings highlight the port sector’s clear commitment to innovation and climate action, while also revealing a need to expand practices addressing biodiversity and marine ecosystems.</p>
 </details>
 </article>
@@ -143,10 +173,10 @@
 <div class="sdgs">
 <span class="sdg">SDG 7</span><span class="sdg">SDG 9</span><span class="sdg">SDG 12</span><span class="sdg">SDG 13</span>
 </div>
-<p class="kw">Keywords: Resíduos eletrônicos; Energia fotovoltaica em fim de vida; Painéis solares; Energia renovável.</p>
+<div class="kw-chips"><span class="kw-chip">Electronic waste</span><span class="kw-chip">End-of-life photovoltaic energy</span><span class="kw-chip">Solar panels</span><span class="kw-chip">Renewable energy</span></div>
 <p>Full article: https://doi.org/10.1016/j.ssaho.2023.100456</p>
 <details>
-<summary>Abstract (English)</summary>
+<summary>Abstract</summary>
 <p>This article investigates sustainability practices reported by ten Brazilian port authorities managing 17 ports responsible for 76% of national cargo. The study reveals stronger focus on SDG 8 (decent work and economic growth), SDG 11 (sustainable cities and communities), and SDG 14 (life below water). Although the SDGs began to appear in port reports from 2018, by 2020 only four authorities still published such information. Overall, the study shows that the integration of SDGs in Brazilian port governance remains incipient and requires consolidation.</p>
 </details>
 </article>
@@ -162,7 +192,7 @@
 </div>
 <p>Full article: https://doi.org/10.1007/s10668-023-03126-y</p>
 <details>
-<summary>Abstract (English)</summary>
+<summary>Abstract</summary>
 <p>This article discusses the environmental impacts of end-of-life photovoltaic (PV) panels in Brazil. While PV technology is a mature and promising renewable energy source, discarded panels generate significant electronic waste containing metals and toxic materials. Beyond technological solutions for recycling, the study stresses the importance of regulatory frameworks and public policies to manage industrial waste effectively. It highlights the urgency of integrating circular economy principles to ensure that PV energy contributes to sustainability without creating new environmental burdens.</p>
 </details>
 </article>
